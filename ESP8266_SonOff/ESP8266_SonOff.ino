@@ -1,5 +1,5 @@
 /*
-ESP8266 Development Board:
+witty cloud ESP8266 development board:
 
 LED pinout left to right:
 
@@ -8,13 +8,6 @@ RGB-LED:
  B = GPIO13
  R = GPIO15
 
-red LEDS:
-GPIO16
-GPIO14
-GPIO05
-GPIO04
-GPIO00
-GPIO02
 
        FOR SONOFF-MODULES
    WARNING SET FLASH MODE TO DOUT!!
@@ -26,8 +19,6 @@ GPIO02
 #include <ESP8266WebServer.h>
 
 // Replace with your network credentials
-const char* ssid = "TP-LINK";
-const char* password = "Das_ist_eine_1a_sichere_Passphrase";
 
 
 ESP8266WebServer server(80);
